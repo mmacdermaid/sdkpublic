@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
     'MediaMathSDK' => ['Pod/Assets/*']
   }
 
-   s.public_header_files = 'Pod/Classes/*.h'
+   s.public_header_files = 'Pod/Classes/MediaMathSDK.h'
    s.frameworks = 'SystemConfiguration', 'MobileCoreServices', 'AdSupport', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
