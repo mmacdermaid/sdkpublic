@@ -27,12 +27,12 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-#s.source_files = 'Pod/Classes'
+s.source_files = 'Pod/Classes'
   s.resource_bundles = {
     'MediaMathSDK' => ['Pod/Assets/*']
   }
 
-   s.public_header_files = 'Pod/Classes/MediaMathSDK.h'
+#s.public_header_files = 'Pod/Classes/MediaMathSDK.h'
    s.frameworks = 'SystemConfiguration', 'MobileCoreServices', 'AdSupport', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
