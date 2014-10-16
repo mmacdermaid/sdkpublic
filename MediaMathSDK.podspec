@@ -32,6 +32,10 @@ s.source_files = 'Pod/Classes'
     'MediaMathSDK' => ['Pod/Assets/*']
   }
 
+s.library = 'MediaMathSDK'
+
+s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => "$(SRCROOT)/Pod/Assets/*"
+
 #s.public_header_files = 'Pod/Classes/MediaMathSDK.h'
    s.frameworks = 'SystemConfiguration', 'MobileCoreServices', 'AdSupport', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
