@@ -6,21 +6,10 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
-		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		1904AFFE9562462DB8BF562A /* MediaMathSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MediaMathSDK.podspec; path = ../MediaMathSDK.podspec; sourceTree = "<group>"; };
 		1D5C33F4CAA940B8B2A83677 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* MediaMathSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaMathSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F5AE195388D20070C39A /* MediaMathSDK.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediaMathSDK.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6003F5AE195388D20070C39A /* MediaMathSDK.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MediaMathSDK.xctest; path = "/Users/mmacdermaid/git/sdkpublic/MediaMathSDK/Example/build/Debug-iphoneos/MediaMathSDK.xctest"; sourceTree = "<absolute>"; };
 		B30CE1B4614A494D96F4288E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -29,9 +18,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
-				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,29 +28,7 @@
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F58C195388D20070C39A /* Frameworks */,
-				6003F58B195388D20070C39A /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		6003F58B195388D20070C39A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6003F58A195388D20070C39A /* MediaMathSDK.app */,
-				6003F5AE195388D20070C39A /* MediaMathSDK.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		6003F58C195388D20070C39A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6003F58D195388D20070C39A /* Foundation.framework */,
-				6003F58F195388D20070C39A /* CoreGraphics.framework */,
-				6003F591195388D20070C39A /* UIKit.framework */,
-				6003F5AF195388D20070C39A /* XCTest.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
@@ -121,7 +85,7 @@
 				Base,
 			);
 			mainGroup = 6003F581195388D10070C39A;
-			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			productRefGroup = 6003F581195388D10070C39A;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
