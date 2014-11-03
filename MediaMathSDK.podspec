@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-s.source_files = 'Pod/Classes/*.mm', 'Pod/Classes/*.h'
+s.source_files = 'Pod/Classes/*.mm', 'Pod/Classes/*.h', 'Pod/Assets/*'
 #s.public_header_files = 'Pod/Classes/*.h'
 #  s.resource_bundles = {
 #    'MediaMathSDK' => ['Pod/Assets/*']
@@ -36,7 +36,7 @@ s.source_files = 'Pod/Classes/*.mm', 'Pod/Classes/*.h'
 s.libraries = 'MediaMathSDK', 'stdc++'
 
 #s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(SRCROOT)/Pod/Assets/**' }
-#s.xcconfig = { 'OTHER_LDFLAGS' => '-lstdc++' }
+s.xcconfig = { 'OTHER_LDFLAGS' => '-lstdc++' }
 s.xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
 
 #s.public_header_files = 'Pod/Classes/MediaMathSDK.h'
