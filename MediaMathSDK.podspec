@@ -33,14 +33,16 @@ s.source_files = 'Pod/Classes/*.mm', 'Pod/Classes/*.h'
     'MediaMathSDK' => ['Pod/Assets/*']
   }
 
-s.libraries = 'MediaMathSDK', 'stdc++'
+s.libraries = 'MediaMathSDK', 'stdc++', 'lObjC'
 
 #s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(SRCROOT)/Pod/Assets/**' }
-s.xcconfig = { 'OTHER_LDFLAGS' => '-lstdc++' }
-s.xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
+#s.xcconfig = { 'OTHER_LDFLAGS' => '-lstdc++' }
+#s.xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
+
+s.frameworks = 'SystemConfiguration', 'MobileCoreServices', 'AdSupport', 'Foundation'
 
 #s.public_header_files = 'Pod/Classes/MediaMathSDK.h'
-   s.frameworks = 'SystemConfiguration', 'MobileCoreServices', 'AdSupport', 'Foundation'
+
   # s.dependency 'AFNetworking', '~> 2.3'
 
 
