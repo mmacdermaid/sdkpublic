@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
 s.source_files = 'includes/*.h'
-s.public_header_files = 'Pod/Classes/*.h'
+s.public_header_files = 'includes/*.h'
 
 #s.resource_bundles = {
 #    'MediaMathSDK' => ['Pod/Assets/*.a']
