@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 s.source_files = 'Pod/Classes/*.mm', 'Pod/Classes/*.h'
 #s.public_header_files = 'Pod/Classes/*.h'
   s.resource_bundles = {
-    'MediaMathSDK' => ['Pod/Assets/**']
+    'MediaMathSDK' => ['Pod/Assets/*.a']
   }
 
 s.libraries = 'MediaMathSDK', 'stdc++', 'lObjC'
