@@ -37,7 +37,7 @@ s.libraries = 'MediaMathSDK', 'stdc++'
 
 #s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(SRCROOT)/Pod/Assets/**' }
 #s.xcconfig = { 'OTHER_LDFLAGS' => '-lstdc++' }
-s.xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
+#s.xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
 
 #s.public_header_files = 'Pod/Classes/MediaMathSDK.h'
    s.frameworks = 'SystemConfiguration', 'MobileCoreServices', 'AdSupport', 'Foundation'
