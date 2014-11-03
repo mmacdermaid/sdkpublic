@@ -6,7 +6,7 @@
 #
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
-
+/Users/mmacdermaid/git/sdkpublic/MediaMathSDK/MediaMathSDK.podspec
 Pod::Spec.new do |s|
   s.name             = "MediaMathSDK"
   s.version          = "0.1.0"
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-s.source_files = 'Pod/Classes/*.mm', 'Pod/Classes/*.h'
+s.source_files = 'clases/*.mm', 'includes/*.h'
 s.public_header_files = 'Pod/Classes/*.h'
 
 #s.resource_bundles = {
@@ -36,7 +36,11 @@ s.public_header_files = 'Pod/Classes/*.h'
 
 #s.ios.vendored_library = 'libMediamathSDK.a'
 
-s.libraries = 'MediaMathSDK', 'stdc++', 'lObjC'
+s.libraries = 'stdc++', 'lObjC'
+
+
+s.preserve_paths = "libMediamathSDK.a"
+s.ios.vendored_library = "libMediamathSDK.a"
 
 #s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(SRCROOT)/Pod/Assets/**' }
 #s.xcconfig = { 'OTHER_LDFLAGS' => '-lstdc++' }
