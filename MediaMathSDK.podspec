@@ -33,11 +33,11 @@ s.source_files = 'Pod/Classes/*.mm', 'Pod/Classes/*.h'
     'MediaMathSDK' => ['Pod/Assets/*.a']
   }
 
-s.ios.vendored_library = 'libMediamathSDK.a'
+#s.ios.vendored_library = 'libMediamathSDK.a'
 
 s.libraries = 'MediaMathSDK', 'stdc++', 'lObjC'
 
-#s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(SRCROOT)/Pod/Assets/**' }
+s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(SRCROOT)/Pod/Assets/**' }
 #s.xcconfig = { 'OTHER_LDFLAGS' => '-lstdc++' }
 #s.xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
 
