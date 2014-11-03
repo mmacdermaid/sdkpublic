@@ -124,7 +124,7 @@ Pod::Spec.new do |s|
   s.frameworks = 'SystemConfiguration', 'MobileCoreServices', 'AdSupport', 'Foundation'
   s.preserve_paths = 'libMediamathSDK.a'
   s.ios.vendored_library = 'libMediamathSDK.a'
-  s.libraries = 'stdc++', 'lObjC'
+  s.libraries = 'stdc++', 'ObjC'
 
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
