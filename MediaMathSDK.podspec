@@ -145,6 +145,10 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-    s.dependency "RNCryptor", "~> https://github.com/RNCryptor/RNCryptor"
+
+    s.subspec 'RNCryptor' do |rncryptor|
+    rncryptor.source = { :git => "https://github.com/RNCryptor/RNCryptor", :tag => "RNCryptor v2.2" }
+    rncryptor.source_files  = 'RNCryptor/*'
+    end
 
 end
