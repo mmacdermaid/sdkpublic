@@ -67,7 +67,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "6.0"
 
   # s.platform     = :ios
   # s.platform     = :ios, "5.0"
@@ -89,6 +89,11 @@ Pod::Spec.new do |s|
                         :tag => "1",
                         :submodules => true
                    }
+
+
+    s.subspec 'RNCryptor' do |ss|
+    ss.source_files = 'RNCryptor/RNCryptor/*.{h,m}'
+    end
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -151,11 +156,5 @@ Pod::Spec.new do |s|
   # s.dependency "JSONKit", "~> 1.4"
 #s.dependency "RNCryptor", "~> 2.2"
 #s.dependency "AFNetworking", "~> 2.4.1"
-
-
-    s.subspec 'RNCryptor' do |ss|
-    ss.source_files = 'RNCryptor/RNCryptor/*.{h,m}'
-    end
-
 
 end
