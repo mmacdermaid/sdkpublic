@@ -86,7 +86,7 @@ Pod::Spec.new do |s|
 
   s.source       = {
                         :git => "http://mmacdermaid/sdkpublic.git",
-                        :tag => "0.0.1",
+                        :tag => "1",
                         :submodules => true
                    }
 
