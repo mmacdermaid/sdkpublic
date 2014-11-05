@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "MediaMathSDK"
   s.version      = "0.0.1"
-  s.summary      = "A short description of MediaMathSDK."
+  s.summary      = "stuff"
 
   s.description  = <<-DESC
                    A longer description of MediaMathSDK in Markdown format.
@@ -28,7 +28,8 @@ Pod::Spec.new do |s|
                    * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
-  s.homepage     = "http://EXAMPLE/MediaMathSDK"
+  s.homepage     = "http://github.com/mmacdermaid/sdkpublic"
+  # s.homepage     = "http://EXAMPLE/MediaMathSDK"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,7 +40,9 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
+
+  # s.license      = "MIT (example)"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
