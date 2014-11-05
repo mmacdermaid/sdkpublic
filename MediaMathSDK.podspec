@@ -86,7 +86,7 @@ Pod::Spec.new do |s|
 
   s.source       = {
                         :git => "http://mmacdermaid/sdkpublic.git",
-                        :tag => "0.0.1",
+                        :tag => "0.0.2",
                         :submodules => true
                    }
 
@@ -149,9 +149,17 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-s.dependency "RNCryptor", "~> 2.2"
-s.dependency "AFNetworking", "~> 2.4.1"
+#s.dependency "RNCryptor", "~> 2.2"
+#s.dependency "AFNetworking", "~> 2.4.1"
 
+
+s.subspec 'RNCryptor' do |rncryptor|
+rncryptor.source_files = 'RNCryptor/RNCryptor/*.{h,m}'
+rncryptor.source = {
+:git => "https://github.com/RNCryptor/RNCryptor",
+:tag => "RNCryptor-2.2"
+}
+end
 
 
 end
