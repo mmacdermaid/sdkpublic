@@ -151,7 +151,7 @@ Pod::Spec.new do |s|
   # s.dependency "JSONKit", "~> 1.4"
 
     s.subspec 'RNCryptor' do |rncryptor|
-    rncryptor.source_files = 'RNCryptor/RNCryptor/*.{h,m}'
+    rncryptor.source_files = 'RNCryptor/RNCryptor/*.h', 'RNCryptor/RNCryptor/*.m'
     end
 
 
