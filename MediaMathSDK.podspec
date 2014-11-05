@@ -153,13 +153,9 @@ Pod::Spec.new do |s|
 #s.dependency "AFNetworking", "~> 2.4.1"
 
 
-s.subspec 'RNCryptor' do |rncryptor|
-rncryptor.source_files = 'RNCryptor/RNCryptor/*.{h,m}'
-rncryptor.source = {
-:git => "https://github.com/RNCryptor/RNCryptor",
-:tag => "RNCryptor-2.2"
-}
-end
+    s.subspec 'RNCryptor' do |ss|
+    ss.source_files = 'RNCryptor/RNCryptor/*.{h,m}'
+    end
 
 
 end
