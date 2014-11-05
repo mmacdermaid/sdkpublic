@@ -89,10 +89,6 @@ Pod::Spec.new do |s|
                         :tag => "1",
                         :submodules => true
                    }
-
-
-    s.subspec 'RNCryptor' do |ss|
-    ss.source_files = 'RNCryptor/RNCryptor/*.{h,m}'
     end
 
 
@@ -154,7 +150,7 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-#s.dependency "RNCryptor", "~> 2.2"
-#s.dependency "AFNetworking", "~> 2.4.1"
+  s.dependency "RNCryptor", "~> 2.2"
+  s.dependency "AFNetworking", "~> 2.4.1"
 
 end
