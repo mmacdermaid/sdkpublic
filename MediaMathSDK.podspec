@@ -89,7 +89,6 @@ Pod::Spec.new do |s|
                         :tag => "1",
                         :submodules => true
                    }
-    end
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
