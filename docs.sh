@@ -1,0 +1,1 @@
+appledoc --output ./appledoc/docs --publish-docset .

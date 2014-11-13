@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/mmacdermaid/Library/Developer/Shared/Documentation/DocSets/com.MediaMath.MediaMathSDK.docset
+Time: 2014-11-13 21:03:36 +0000

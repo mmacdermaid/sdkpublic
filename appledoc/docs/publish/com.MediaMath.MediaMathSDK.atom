@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:docset="http://developer.apple.com/rss/docset_extensions" xml:lang="en">
+    <id>http://gentlebytes.com/downloads/com.MediaMath.MediaMathSDK.atom/20141113150336</id>
+    <title type="text">MediaMathSDK Documentation</title>
+    <rights>Copyright © 2014 MediaMath. All rights reserved.</rights>
+    <link rel="self" href="http://gentlebytes.com/downloads/com.MediaMath.MediaMathSDK.atom"></link>
+    <docset:publisherName>MediaMath</docset:publisherName>
+    <docset:publisherID>com.MediaMath.documentation</docset:publisherID>
+    <updated>2014-11-13T15:03:36-06:00</updated>
+    <entry>
+        <id>tag:gentlebytes.com,2014-11-13:com.MediaMath.MediaMathSDK/1.0.0</id>
+        <title type="text">MediaMathSDK Documentation</title>
+        <updated>2014-11-13T15:03:36-06:00</updated>
+        <content type="text">MediaMathSDK Documentation (v1.0.0)</content>
+        <link rel="enclosure" type="application/octet-stream" href="http:/www.google.com.xar" length="31207"></link>
+        <docset:identifier>com.MediaMath.MediaMathSDK</docset:identifier>
+        <docset:version>1.0.0</docset:version>
+        <docset:minimumXcodeVersion>3.0.0</docset:minimumXcodeVersion>
+    </entry>
+</feed>
